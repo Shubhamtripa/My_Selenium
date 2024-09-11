@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestRunner2(failed)">
+    <classes>
+      <class name="testNG_Vtiger.Create_ProductTest">
+        <methods>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="AS"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="CreateProductTest"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+        </methods>
+      </class> <!-- testNG_Vtiger.Create_ProductTest -->
+    </classes>
+  </test> <!-- TestRunner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
